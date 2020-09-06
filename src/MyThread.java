@@ -20,7 +20,8 @@ import java.util.Date;
 public class MyThread extends Thread{
     InputStream in;
 
-    String ACCESS_TOKEN = "hYIIfCqN0wAAAAAAAAAAVDGqkYBCbGo_3HWzC-6_wAKljJ6uhhk_ZdZkzrD3IDsk";
+    // кинуть токен
+    String ACCESS_TOKEN = " ";
     DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
     DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
     int counter = 0;
